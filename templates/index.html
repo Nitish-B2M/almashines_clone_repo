@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home | Almashines Clone</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="shortcut icon" href="../static/photo/favicon-1-150x150.png" />
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar j-sb-flex">
+            <div class="container j-sb-flex">
+                <div class="left j-sb-flex">
+                    <div class="logo">
+                        <img
+                            src="../static/photo/Almashines-logo.png"
+                            alt="image loading"
+                            width="300px"
+                            height="69px"
+                        />
+                    </div>
+                    <div class="navbar-menu">
+                        <ul class="j-sb-flex navbar-ul">
+                            <li class="menu-list  j-sb-flex">
+                                <a href="#"> Product & Solutions </a>
+                                <div class="icon nav-icon"></div>
+                            </li>
+                            <li class="menu-list  j-sb-flex">
+                                <a href="#"> Resources </a>
+                                <div class="icon nav-icon"></div>
+                            </li>
+                            <li class="menu-list  j-sb-flex">
+                                <a href="#"> Pricing </a>
+                            </li>
+                            <li class="menu-list  j-sb-flex">
+                                <a href="#"> Loyalty Program </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right j-sb-flex">
+                    <div class="btn nav-btn">
+                        <a href="#"> Book a Free Demo </a>
+                    </div>
+
+                    <!-- hamburger menu -->
+                    <div class="hamburger-menu">
+                        <div class="hamburger-icon" onclick="return toggleNavbar()"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- main section -->
+        <main class="main-container">
+            <!-- hero section -->
+            <section class="hero-section setion">
+                <div class="container">
+                    <div class="hero-row j-sb-flex">
+                        <div class="left">
+                            <div class="main-header">
+                                <h1 class="main-title">
+                                    <span id="hero-title">
+                                        More Power To Your Community With
+                                    </span>
+                                    <span id="typed">
+                                        Alumni Centric Services
+                                    </span>
+                                </h1>
+                            </div>
+                            <div class="hero-content">
+                                An Integrated alumni management solution for alumni offices and alumni associations at colleges,universities, secondary schools, and other educational programs for strengthening their alumni community, maintaining the database, enhancing engagement and managing contributions.
+                            </div>
+                            <div class="inquiry">
+                                <form action="" onsubmit="return validateEmail(event)">
+                                    <div class="row n-j-flex">
+                                        <div class="input">
+                                            <input
+                                                type="text"
+                                                name="email"
+                                                id="email"
+                                                placeholder="Enter email address"
+                                            />
+                                        </div>
+                                        <div class="btn nav-btn">
+                                            <button type="submit">Book a Free Demo </button>
+                                        </div>
+                                    </div>
+                                    <span class="show-message n-j-flex"></span>
+                                </form>
+                            </div>
+                            <div class="hero-btn">
+                                <button class=" j-sb-flex">
+                                    Watch Product Video
+                                    <img src="../static/photo/video-icon.svg" alt="" />
+                                </button>
+                            </div>
+                            <div class="company-review-section n-j-flex">
+                                <a href="#" class="review-item">
+                                    <img src="../static/photo/G2-Summer-2022-High-Performer.png"     alt="">    
+                                </a>
+                                <a href="#" class="review-item">
+                                    <img src="../static/photo/7479708fd24a6de56a5bc192e362d84f.svg" alt="">
+                                </a>
+                                <a href="#" class="review-item">
+                                    <img src="../static/photo/light-default.svg" alt="">
+                                </a>
+                                <a href="#" class="review-item">
+                                    <img src="../static/photo/4.5.png" alt="">
+                                </a>
+                                <a href="#" class="review-item">
+                                    <img src="../static/photo/light-default (1).svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="hero-img">
+                                <img
+                                    src="../static/photo/home_banner.jpg"
+                                    alt="image loading"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="slider-section section">
+                <div class="container">
+                    <div class="hero-row">
+                        <div class="slider-title">
+                            <h4>TRUSTED BY 1200+ INSTITUTES ACROSS THE GLOBE!
+                            </h4>
+                        </div>
+                        <div class="slider-content n-flex">
+                        <div class="slider-items j-sb-flex">
+                            <div class="slider-item n-flex zoom-animation">
+                                <img src="../static/photo/IIM_Bangalore_Logo.svg.png" alt="">
+                            </div>
+                            <div class="slider-item n-flex zoom-animation">
+                                <img src="../static/photo/IIT_Kanpur_Logo.svg.png" alt="">
+                            </div>
+                            <div class="slider-item n-flex zoom-animation">
+                                <img src="../static/photo/iit-delhi.png" alt="">
+                            </div>
+                            <div class="slider-item n-flex lc zoom-animation">
+                                <img src="../static/photo/university-of-western.jpg" alt="">
+                            </div>
+                            <div class="slider-item n-flex zoom-animation">
+                                <img src="../static/photo/IIT_Madras_Logo.svg.png" alt="">
+                            </div>
+                        </div>
+                        <!-- <div class="right-slider-icon slider-icon">
+                            <img src="../static/photo/next.png" alt="">
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- body section 1 -->
+            <div class="body-section1 body-section">
+                <div class="container">
+                    <div class="page-header">
+                        <div class="page-sub-header">
+                            <h5>Alumni Platform</h5>
+                        </div>
+                        <div class="page-header-title">
+                            <h1>360<sup>o</sup> Alumni Management Solution</h1>
+                        </div>
+                        <div class="page-brief">
+                            <p>Comprehensive alumni management solution that helps institutions connect, engage, manage and generate support from their alumni.</p>
+                        </div>
+                    </div>
+                    <div class="bs-slider j-sb-flex">
+                        <div class="bs-content j-sb-flex">
+                            <div class="bs-left">
+                                <img src="../static/photo/Manage_1.png" alt="">
+                            </div>
+                            <div class="bs-right">
+                                <h3 class="page-sub-header">More Alumni Engagement</h3>
+                                <p class="page-brief">Intelligent automated campaigns and services to cater for all needs of your alumni and personalised engagement of all alumni segments</p>
+                                <div><img src="../static/photo/right-arrow.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- body section 2 -->
+            <div class="body-section2 body-section">
+                <div class="container">
+                    <div class="page-header">
+                        <div class="page-sub-header">
+                            <h5>Mobile App | AlmaShines</h5>
+                        </div>
+                        <div class="page-header-title">
+                            <h1>Alumni Management On The Go</h1>
+                        </div>
+                    </div>
+                    <div class="bs-slider mas-slider">
+                        
+                        <div class="bs-content mas bcs1">
+                            <div class="mobile-app-item">
+                                <img src="../static/photo/icard.png" alt="">
+                                <h3 class="page-sub-header">Digital Alumni Cards</h3>
+                                <div class="page-brief">Replace the physical iCards with QR-enabled Digital Cards useful for not only verifying the identity of alumni but also to keep a track of their on-campus activities</div>
+                            </div>
+                            <div class="mobile-app-item">
+                                <img src="../static/photo/bulk-mailing-engine.png" alt="">
+                                <h3 class="page-sub-header">Bulk Mailing Engine</h3>
+                                <div class="page-brief">A very powerful mailing tool with which the institutes can send personalized bulk emails and keep a track of emails that are opened as well as the clicked with this powerful mailing tool</div>
+                            </div>
+                            <div class="mobile-app-item">
+                                <img src="../static/photo/Membership-management.png" alt="">
+                                <h3 class="page-sub-header">Membership Management System</h3>
+                                <div class="page-brief">Having an Alumni Membership program at place? Or planning to start one? Manage all types & tiers of memberships along with offering custom privileges to members</div>
+                            </div>
+                            <div class="mobile-app-item">
+                                <img src="../static/photo/Alumni-mentorship.png" alt="">
+                                <h3 class="page-sub-header">Alumni Mentorship</h3>
+                                <div class="page-brief">Provide opportunities to young members and current students to seek guidance from the distinguished alumni from all domains</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- body section 3 javascript section-->
+            <div class="body-section3 jss body-section">
+                <div class="container">
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h2>More Power to Your Alumni Relations</h2>
+                        </div>
+                    </div>
+                    <div class="jss-btns n-flex">
+                        <div class="jss-btn"><button class="btn-action jss-btn-active" onclick="return changeJssContent('Data Driven Insights')" id="Data Driven Insights">Data Driven Insights</button></div>
+                        <div class="jss-btn"><button class="btn-action " onclick="return changeJssContent('Intelligent Automation')" id="Intelligent Automation">Intelligent Automation</button></div>
+                        <div class="jss-btn"><button class="btn-action " onclick="return changeJssContent('Mobile First Experience')" id="Mobile First Experience">Mobile First Experience</button></div>
+                        <div class="jss-btn"><button class="btn-action " onclick="return changeJssContent('Tailor-Made Platform')" id="Tailor-Made Platform">Tailor-Made Platform</button></div>
+                    </div>
+                    <div class="bs-slider">
+                        <div class="fss n-flex">
+                            <div class="fss-left">
+                                <h3 class="page-sub-header" id="jss-sub-header">Insights That Help You Develop Efficient Strategies</h3>
+                                <p class="page-brief" id="jss-brief">Advanced algorithms of AlmaShines crunch thousand of data points every day to bring you not only the powerful analytics on alumni activities & behaviours but also gives you directions and recommendations to plan your alumni engagement ahead</p>
+                            </div>
+                            <div class="fss-right">
+                                <img src="../static/photo/Manage_1.png" id="jss-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- body section 4 -->
+            <div class="body-section4 body-section">
+                <div class="container">
+                    <div class="page-header">
+                        <div class="page-sub-header">
+                            <h5>Integrations</h5>
+                        </div>
+                        <div class="page-header-title">
+                            <h1>AlmaShines Seamlessly Integrates With</h1>
+                        </div>
+                        <div class="page-brief">
+                            <p>AlmaShines Alumni Platform seamlessly integrates with all major services to bring together all that your institution needs to connect, engage, manage and raise contributions from their alumni.</p>
+                        </div>
+                    </div>
+                    <div class="carousel j-sb-flex">
+                        <div class="carousel-item">
+                            <div class="item-icon">
+                                <img src="../static/photo/zoom-1.png" alt="">
+                            </div>
+                                <div class="item-info">
+                                    <h6>Zoom</h6>
+                                    <p class="page-brief">For integrated virtual alumni events
+                                    </p>
+                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item-icon">
+                                <img src="../static/photo/aws-1.png" alt="">
+                            </div>
+                                <div class="item-info">
+                                    <h6>AWS</h6>
+                                    <p class="page-brief">For secure and scalable cloud infrastructure</p>
+                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item-icon">
+                                <img src="../static/photo/facebook-1.png" alt="">
+                            </div>
+                            <div class="item-info">
+                                <h6>Razorpay</h6>
+                                <p class="page-brief">For secure & fast payments</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item-icon">
+                                <img src="../static/photo/rejopay.png" alt="">
+                            </div>
+                                <div class="item-info">
+                                    <h6>Facebook</h6>
+                                    <p class="page-brief">For social media profile sync</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- body section 5 -->
+            <!-- testimonial -->
+            <div class="body-section5 body-section">
+                <div class="container testimonial j-sb-flex">
+                    <div class="testimonial-brief n-j-flex">
+                        <div class="testimonial-heading">
+                            <h3 class="testimonial-user-tag1">Loved by</h3>
+                            <h1 class="testimonial-user-count">3.2 M</h1>
+                        </div>
+                        
+                        <!-- <div class="testimonial-content"> -->
+                            <div class="testimonial-user-tag2">ALUMNI USERS</div>
+                        <!-- </div> -->
+                    </div>
+                    <div class="user-testimonial-section">
+                    <div class="user-testimonial n-flex">
+                        <img src="../static/photo/rajiv-bhanderi.jpeg" alt="" class="user-img">
+                        <div class="ratings">
+                            <img src="../static/photo/Path_rating.png" alt="" class="rating">
+                            <img src="../static/photo/Path_rating.png" alt="" class="rating">
+                            <img src="../static/photo/Path_rating.png" alt="" class="rating">
+                            <img src="../static/photo/Path_rating.png" alt="" class="rating">
+                        </div>
+                        <div class="page-brief">"Best Platform to connect with Alumni with minimal efforts, Platform keep us in touch with all alumni"</div>
+                        <div class="page-sub-header">Rajiv Bhandari  </div>
+                        <div class="page-brief">Assistant Professor at SNJBs Late Sau Kantabai Bhavarlalji Jain College of Engineering Chandwad Nashik</div>
+                    </div>
+                    
+                    <div class="user-testimonial n-flex">
+                        <img src="../static/photo/rajiv-bhanderi.jpeg" alt="" class="user-img">
+                        <div class="ratings">
+                            <img src="../static/photo/Path_rating.png" alt="" class="rating">
+                            <img src="../static/photo/Path_rating.png" alt="" class="rating">
+                            <img src="../static/photo/Path_rating.png" alt="" class="rating">
+                            <img src="../static/photo/Path_rating.png" alt="" class="rating">
+                        </div>
+                        <div class="page-brief">"Best Platform to connect with Alumni with minimal efforts, Platform keep us in touch with all alumni"</div>
+                        <div class="page-sub-header">Rajiv Bhandari  </div>
+                        <div class="page-brief">Assistant Professor at SNJBs Late Sau Kantabai Bhavarlalji Jain College of Engineering Chandwad Nashik</div>
+                    </div>
+                    </div>
+                </div>                
+            </div>
+            
+            <!-- body section 6 -->
+            <!-- pricing section -->
+            <div class="body-section6 pms body-section">
+                <div class="container">
+                    <div class="page-header">
+                        <div class="page-sub-header">
+                            <h5>Packages</h5>
+                        </div>
+                        <div class="page-header-title">
+                            <h1>Build Your Alumni Community on a Single, Comprehensive Platform</h1>
+                        </div>
+                    </div>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="highlight n-flex">
+                                <div class="price-tag"></div>
+                                <div class="page-sub-header">Free</div>
+                            </div>
+                            <div class="price-content">
+                            <div class="page-header">Want to start building your alumni database?</div>
+                            <div class="page-brief">For alumni communities, kickstarting to build the alumni database.</div>
+                            </div>
+                            <button class="btn-more-info">Learn More</button>
+                        </div>
+                        <div class="box">
+                            <div class="highlight n-flex">
+                                <div class="price-tag"></div>
+                                <div class="page-sub-header">Booster</div>
+                            </div>
+                            <div class="price-content">
+                            <div class="page-header">Have you got a basic alumni database to start with?</div>
+                            <div class="page-brief">For early alumni communities to strengthen and grow the alumni database</div>
+                            </div>
+                            <button class="btn-more-info">Learn More</button>
+                        </div>
+                        <div class="box">
+                            <div class="highlight n-flex">
+                                <div class="price-tag price-tag-active">Popular</div>
+                                <div class="page-sub-header">Pro</div>
+                            </div>
+                            <div class="price-content">
+                            <div class="page-header">Want to engage your alumni community further?</div>
+                            <div class="page-brief">For evolving alumni communities to strengthen alumni engagement and grow alumni participation.</div>
+                            </div>
+                            <button class="btn-more-info">Learn More</button>
+                        </div>
+                        <div class="box">
+                            <div class="highlight n-flex">
+                                <div class="price-tag"></div>
+                                <div class="page-sub-header">Advanced</div>
+                            </div>
+                            <div class="price-content">
+                            <div class="page-header">Have you got an alumni office to manage alumni relations?</div>
+                            <div class="page-brief">For large alumni communities to manage all the operations of alumni relations and cater all alumni</div>
+                            </div>
+                            <button class="btn-more-info">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- body section 7 -->
+            <!-- blog setion -->
+            <div class="body-section7 blogs body-section">
+                <div class="container">
+                    <div class="page-header j-sb-flex">
+                        <div class="page-header-title">
+                            <h1>Our Blogs</h1>
+                        </div>
+                        <div class="explore-more">
+                            <a href="">Explore More</a>
+                            <img src="../static/photo/right-arrow.png" alt="">
+                        </div>
+                    </div>
+                    <div class="blog-highlight j-sb-flex">
+                        <div class="blog-features">
+                            <img src="../static/photo/Screenshot-2024-01-11-at-1.39.46 PM.png" alt="">
+                            <div class="blog-wrapper">
+                            <div class="blog-tags">Uncategorized</div>
+                            <div class="blog-header">10 Helpful Hacks to Engage 'Millennial' Alumni Athletes</div>
+                            <div class="blog-footer">
+                                <div class="read-btn"><a href="#">Read more</a></div>
+                                <div class="blog-date">January 11, 2024</div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="blog-banner">
+                            <div class="blog-content">
+                                <div class="blog-tags">ARTS</div>
+                                <div class="blog-header">10 Helpful Hacks to Engage 'Millennial Alumni'</div>
+                                <div class="blog-footer">
+                                    <span class="blog-desc" id="blog-desc"></span>
+                                    <div class="read-btn"><a href="#blog-desc" id="read-more-btn" onclick="return readBlog(event)">Read more</a></div>
+                                    <div class="blog-date">January 11, 2024</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <!-- footer section -->
+        <footer>
+            <div class="footer container">
+            <div class="footer-content">
+                <div class="content-item">
+                    <div class="content-heading">Joins</div>
+                    <ul>
+                        <li><a href="#">Alumni Relations Transformation Series</a></li>
+                        <li><a href="#">Alumni Professionals Community</a></li>
+                    </ul>
+                </div>
+                <div class="content-item">
+                    <div class="content-heading">Company</div>
+                    <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Ebook & Guides</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                <div class="content-item">
+                    <div class="content-heading">Product & Solutions</div>
+                    <ul>
+                        <li><a href="#">Free Database Management Platform</a></li>
+                        <li><a href="#">Alumni Management Platform</a></li>
+                        <li><a href="#">For Colleges & Universities</a></li>
+                        <li><a href="#">For Schools</a></li>
+                    </ul>
+                </div>
+                <div class="content-item">
+                    <div class="content-heading">Follow Us On</div>
+                    <ul>
+                        <li>
+                            <a href="#">Facebook</a>
+                            <span class="icon footer-icon"></span>
+                        </li>
+                        <li>
+                            <a href="#">Instagram</a>
+                            <span class="icon footer-icon"></span>
+                        </li>
+                        <li>
+                            <a href="#">LinkedIn</a>
+                            <span class="icon footer-icon"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="../js/script.js"></script>
+</html>
+

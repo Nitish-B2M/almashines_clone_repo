@@ -1,0 +1,30 @@
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### tagline
+A clone of the Almashines website with responsive design.
+
+### Description
+- This project is a clone of the Almashines website. It is a simple static website with responsive design.
+    Almashines [website](https://www.almashines.io/)
+    Almashines [github](
+        
+    )
+
+- The website is built using HTML, CSS and JavaScript (no frameworks).
+- The website is responsive and works well on mobile devices.
+
+### Installing
+Clone the repository to your local machine using the following command:
+
+```
+git clone <repo_link>
+```
+
+## Built With
+* HTML
+* CSS
+* JavaScript
+
+## Creators
+* **Nitish**

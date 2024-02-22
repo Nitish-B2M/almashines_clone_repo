@@ -1,0 +1,28 @@
+{
+    "jssData": [
+        {
+            "id": "Data Driven Insights",
+            "subHeader": "Insights That Help You Develop Efficient Strategies",
+            "brief": "Advanced algorithms of AlmaShines crunch thousand of data points every day to bring you not only the powerful analytics on alumni activities & behaviours but also gives you directions and recommendations to plan your alumni engagement ahead",
+            "img": "../static/photo/Manage_1.png"
+        },
+        {
+            "id": "Intelligent Automation",
+            "subHeader": "Automation Leads To Better Engagement",
+            "brief": "AlmaShines brings personalised engagement for all your alumni segments with intelligent targeting and automated triggers which makes it a complete 'Engagement Machine'",
+            "img": "../static/photo/Automation.png"
+        },
+        {
+            "id": "Mobile First Experience",
+            "subHeader": "Because Your Alumni Are Always Active On Mobile Phones",
+            "brief": "Engage your alumni real time, send instant notifications, receive instant actions in less than a minute and be aligned with the busy lives of your alumni to foster a stronger community and increase engagement levels",
+            "img": "../static/photo/Mobile-app-showcase.png.png"
+        },
+        {
+            "id": "Tailor-Made Platform",
+            "subHeader": "Automation Leads To Better Engagement",
+            "brief": "AlmaShines brings personalised engagement for all your alumni segments with intelligent targeting and automated triggers which makes it a complete 'Engagement Machine'",
+            "img": "../static/photo/Automation.png"
+        }
+    ]    
+}
